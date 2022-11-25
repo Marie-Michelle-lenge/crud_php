@@ -1,0 +1,4 @@
+RewriteEngin on 
+RewriteCond %{REQUEST_FILENANE} !-f 
+RewriteCond %{REQUEST_FILENANE} !-d 
+RewriteRule .* index.php/$0 [PT,L]
